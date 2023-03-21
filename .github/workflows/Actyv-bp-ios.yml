@@ -140,4 +140,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: App-${{ vars.PRODUCT_BUNDLE_IDENTIFIER_IOS }}-${{ vars.MARKETING_VERSION_IOS }}-${{ env.currentDate }}.ipa
-        path: ios/App/build/App.ipa
+        path: ios/App/build/App.ipa 
